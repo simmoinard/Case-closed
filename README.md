@@ -1,4 +1,4 @@
-# closedcase
+# Case closed
 Un casier automatique qui gère le prêt de matériel
 
 Installer pyQT5& outils sur Raspberry & Windows :
