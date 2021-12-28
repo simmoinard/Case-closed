@@ -1,8 +1,8 @@
 # closedcase
 Un casier automatique qui gère le prêt de matériel
 
-Raspberry
+Installer pyQT sur Raspberry
 
-``` bash
+```bash
 sudo apt install python3-pyqt5
 ```
