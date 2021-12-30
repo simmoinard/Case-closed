@@ -60,7 +60,7 @@ bind-address = 0.0.0.0
 mysql est finalement prêt à être utilisé : 
 ```
 
-mysql -uroot -p
+mysql -u root -p
 ```
-
+grant all privileges on *.* to ‘username’@‘%’ identified by ‘password’;
 
