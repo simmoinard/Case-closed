@@ -43,18 +43,15 @@ sudo apt install phpmyadmin
 sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 
 ```
+
 Have just the below in /etc/mysql/my.cnf
 
+```
 [mysqld]
-#### Unix socket settings (making localhost work)
-user            = mysql
-pid-file        = /var/run/mysqld/mysqld.pid
-socket          = /var/run/mysqld/mysqld.sock
-
 #### TCP Socket settings (making all remote logins work)
 port            = 3306
 bind-address = 0.0.0.0
-
+```
 
 
 mysql est finalement prêt à être utilisé : 
