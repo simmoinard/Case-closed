@@ -1,0 +1,147 @@
+/* Style général de l'application */
+QWidget {
+    background-color: #f0f0f5; /* Fond gris clair */
+}
+
+/* Style du titre */
+#titleLabel {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2c3e50; /* Bleu foncé */
+}
+
+/* Style du sous-titre */
+#subtitleLabel {
+    font-size: 24px;
+    text-align: center;
+    color: #34495e; /* Gris foncé */
+}
+
+/* Style des boutons dans les fenêtres de catégories, sous-catégories, et objets */
+#actionButton {
+    font-size: 18px;  /* Taille de la police plus petite */
+    padding: 10px;    /* Moins d'espace autour du texte */
+    border-radius: 15px; /* Arrondi des bords */
+    background-color: #3498db;  /* Bleu */
+    color: white;
+    border: none;
+    width: 120px;   /* Réduction de la largeur */
+    height: 80px;   /* Réduction de la hauteur */
+    text-align: center;
+}
+
+/* Centrage des boutons */
+QVBoxLayout#buttonLayout {
+    align-items: center;
+    justify-content: center;
+}
+
+#actionButton:hover {
+    background-color: #2980b9; /* Bleu plus foncé au survol */
+}
+
+/* Style du bouton Quitter */
+#quitButton {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #e74c3c; /* Rouge */
+    color: white;
+    border: none;
+}
+
+#quitButton:hover {
+    background-color: #c0392b; /* Rouge plus foncé au survol */
+}
+
+#homeButton {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #27ae60; /* Vert */
+    color: white;
+    border: none;
+}
+
+#homeButton:hover {
+    background-color: #219150; /* Vert plus foncé au survol */
+}
+
+#backButton {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f39c12; /* Orange */
+    color: white;
+    border: none;
+}
+
+#backButton:hover {
+    background-color: #e67e22; /* Orange plus foncé au survol */
+}
+
+
+/* Style pour le texte des objets sélectionnés */
+.objectLabel {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+/* Style pour le texte des objets sélectionnés */
+.objectLabel {
+    font-size: 22px;  /* Augmenter la taille de la police */
+    padding: 10px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+    text-align: center;  /* Centrer le texte */
+    font-weight: bold;   /* Mettre le texte en gras, si tu veux */
+}
+
+
+/* Style du bouton "Valider" dans la sélection des objets */
+#validateButtonSelection {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #27ae60;  /* Vert */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;  /* Positionné à 20px du bas */
+    right: 20px;   /* Positionné à 20px de la droite */
+}
+
+#validateButtonSelection:hover {
+    background-color: #2ecc71;  /* Vert plus clair au survol */
+}
+
+
+
+/* Style du bouton "Ouvrir la porte" */
+#openDoorButton {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#openDoorButton:hover {
+    background-color: #2980b9;
+}
